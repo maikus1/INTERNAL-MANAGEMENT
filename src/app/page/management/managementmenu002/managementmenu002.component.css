@@ -26,7 +26,7 @@ body {
 .bell{
     width: 30px;
     height: 30px;
-    font-size: 30px;
+    font-size: 2vw;
     color: #474646;
     position: absolute;
     top: 3%;
@@ -47,7 +47,7 @@ body {
 
 .text-header-menu {
     position: absolute;
-    font-size: 25px;
+    font-size: 1.5vw;
     top: 5%;
     left: 15%;
     color: #707070;
@@ -79,7 +79,7 @@ body {
 .text-search-document-number{
     position: absolute;
     color: #707070;
-    font-size: 20px;
+    font-size: 1vw;
     top: 8%; 
     left: 5%;
     font-family: "K2D";
@@ -88,7 +88,7 @@ body {
 .text-header-menu-underline{
     position: absolute;
     color: #707070;
-    font-size: 32px;
+    font-size: 1.7vw;
     top: 12%; 
     left: 17%;
     font-family: "K2D";
@@ -101,7 +101,7 @@ body {
     left: 17%;
     min-width: 50%;
     min-height: 5%;
-    font-size: 25px;
+    font-size: 1vw;
     border-style: solid;
     border-width: 0.1px;
     font-family: 'K2D';
