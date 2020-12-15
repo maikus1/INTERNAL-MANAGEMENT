@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MenubarUserComponent } from './share/menubar-user/menubar-user.component';
+import { MenubarManagementComponent } from './share/menubar-management/menubar-management.component';
+import { MenubarEngineerComponent } from './share/menubar-engineer/menubar-engineer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenubarUserComponent,
+    MenubarManagementComponent,
+    MenubarEngineerComponent
   ],
   imports: [
     BrowserModule,
