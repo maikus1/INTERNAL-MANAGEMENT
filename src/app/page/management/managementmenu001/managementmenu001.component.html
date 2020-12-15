@@ -1,1 +1,77 @@
+<div class="bg">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
 
+
+  <div class="menu-box">
+    <div class="column">
+      <div class="row">
+        <div class="text-header-menu">HOME > ค้นหาเอกสาร</div>
+        <div class="search-document-number">
+          <input
+            class="text-search-document-number"
+            style="border: none; outline: none"
+            placeholder="หมายเลขเอกสาร..."
+          />
+          <i
+            class="fa fa-search"
+            style="
+              position: absolute;
+              font-size: 24px;
+              color: #707070;
+              top: 10%;
+              right: 5%;
+            "
+          ></i>
+        </div>
+        <i class="bell fa fa-bell"></i>
+      </div>
+      <div class="search-document-number-day">
+        <i
+          class="fa fa-search"
+          style="
+            position: absolute;
+            font-size: 20px;
+            color: #707070;
+            top: 10%;
+            left: 3%;
+          "
+        ></i>
+        <div class="text-search-document-number-day">เลขที่เอกสาร..</div>
+        <div (click)="show_search_document_number_day()">
+          <i class="arrow-down"></i>
+        </div>
+      </div>
+      <ng-container *ngIf="show">
+        <div class="search-day-data">
+          <div class="column search-day-data-left">
+            <div>
+              <label>วันที่ส่งเรื่อง:</label>
+              <div><input /></div>
+            </div>
+            <br />
+            <div>
+              <label>เรื่องที่ติดต่อ:</label>
+              <div><input /></div>
+            </div>
+          </div>
+          <div class="column search-day-data-right">
+            <div>
+              <label>สถานะของงาน:</label>
+              <div><input /></div>
+            </div>
+            <br />
+            <div>
+              <label>เลขที่เอกสาร:</label>
+              <div><input /></div>
+            </div>
+          </div>
+          <button class="search-day-data-button">ค้นหา</button>
+        </div>
+      </ng-container>
+      <div class="line-header-menu"></div>
+    </div>
+  </div>
+</div>
