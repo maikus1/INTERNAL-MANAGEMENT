@@ -15,7 +15,6 @@ export class Managementmenu001Component implements OnInit {
 
   show_search_document_number_day(){
     this.show = !this.show;
-
     // CHANGE THE NAME OF THE BUTTON.
     if(this.show)  
       this.buttonName = "Hide";

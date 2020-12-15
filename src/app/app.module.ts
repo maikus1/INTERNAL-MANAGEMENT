@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { MenubarUserComponent } from './share/menubar-user/menubar-user.component';
 import { MenubarManagementComponent } from './share/menubar-management/menubar-management.component';
 import { MenubarEngineerComponent } from './share/menubar-engineer/menubar-engineer.component';
+import { ManagementModule } from './page/management/management.module';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { MenubarEngineerComponent } from './share/menubar-engineer/menubar-engin
     MenubarUserComponent,
     MenubarManagementComponent,
     MenubarEngineerComponent
+    
   ],
   imports: [
     BrowserModule,
