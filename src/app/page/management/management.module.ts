@@ -5,13 +5,23 @@ import { Managementmenu001Component } from './managementmenu001/managementmenu00
 import { Managementmenu002Component } from './managementmenu002/managementmenu002.component';
 import { Managementmenu003Component } from './managementmenu003/managementmenu003.component';
 import { Managementmenu004Component } from './managementmenu004/managementmenu004.component';
-
+import { ShareModule } from '../../share/share.module'
+import { BrowserModule } from '@angular/platform-browser';
 
 
 @NgModule({
-  declarations: [HomemanagementComponent, Managementmenu001Component, Managementmenu002Component, Managementmenu003Component, Managementmenu004Component],
+  declarations: [
+    HomemanagementComponent, 
+    Managementmenu001Component, 
+    Managementmenu002Component, 
+    Managementmenu003Component, 
+    Managementmenu004Component, 
+    // ShareModule
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    BrowserModule
+    // ShareModule
   ]
 })
 export class ManagementModule { }

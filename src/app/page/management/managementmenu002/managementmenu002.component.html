@@ -1,18 +1,21 @@
 <div class="bg">
   <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-/>
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+
+  <div class="Menubar">
+    
+  </div>
   <div class="menu-box">
     <div class="column">
       <div class="row">
-        <div class="text-header-menu">HOME > ค้นหาเอกสาร</div>
+        <div class="text-header-menu">HOME > ประกาศข่าวสาร</div>
         <div class="search-document-number">
           <input
             class="text-search-document-number"
-            style="border: none; outline: none;width: 80%;height: 80%;;" 
+            style="border: none; outline: none;width: 80%;height: 80%;"
             placeholder="หมายเลขเอกสาร..."
-            
           />
           <i
             class="fa fa-search"
@@ -28,6 +31,142 @@
         <i class="bell fa fa-bell"></i>
       </div>
       <div class="line-header-menu"></div>
+      <div class="text-header-menu-underline">ประกาศข่าวสาร</div>
+      <input class="search-header-news" type="text" placeholder="หัวข้อข่าว" />
+      <div
+        style="
+          background-color: #f1f5f8;
+          position: absolute;
+          box-shadow: 0 30px 50px rgba(0,0,0,.2);
+          left: 17%;
+          top: 25%;
+          min-width: 50%;
+          min-height: 72%;
+          z-index: 1;
+        "
+      >
+        <div
+          style="
+            background-color: white;
+            position: absolute;
+            left: 0%;
+            top: 0%;
+            min-width: 20%;
+            min-height: 10%;
+            box-shadow: 0 30px 50px rgba(0,0,0,.2);
+            z-index: -1;
+          "
+        ></div>
+        <div
+          style="
+            font-size: 25px;
+            color: white;
+            -webkit-text-stroke: 1px black;
+            position: absolute;
+            left: 2%;
+            top: 2%;
+          "
+        >
+          <i
+            class="fa fa-file-text-o"
+            style="
+              font-size: 40px;
+              color: #1c3faa;
+              position: relative;
+              left: 2%;
+              top: 2%;
+            "
+          ></i>
+          เนื้อหาข่าว
+        </div>
+        <div
+          style="
+            background-color: white;
+            position: absolute;
+            min-width: 100%;
+            min-height: 90%;
+            left: 0%;
+            top: 10%;
+            box-shadow: 0 30px 50px rgba(0,0,0,.2);
+          "
+        >
+          <div
+            style="
+              background-color: white;
+              position: absolute;
+              left: 5%;
+              top: 5%;
+              min-width: 90%;
+              min-height: 45%;
+              border-style: solid;
+              border-width: 0.1px;
+              border-radius: 15px;
+              border-color: #707070;
+            "
+          >
+            <div style="font-size: 25px; position: absolute; left: 5%; top: 5%;font-family: 'K2D' ">
+              ส่วนเนื้อหา
+            </div>
+            <div
+              style="
+                position: absolute;
+                left: 5%;
+                top: 20%;
+                min-width: 90%;
+                min-height: 1%;
+                background-color: #a7a4a4;
+              "
+            ></div>
+          </div>
+          <div
+            style="
+              background-color: white;
+              position: absolute;
+              left: 5%;
+              top: 54%;
+              min-width: 90%;
+              min-height: 35%;
+              border-style: solid;
+              border-width: 0.1px;
+              border-radius: 15px;
+              border-color: #707070;
+            "
+          >
+            <div style="font-size: 25px; position: absolute; left: 5%; top: 5%;font-family: 'K2D' ">
+              ส่วนรูปภาพ
+            </div>
+            <div
+              style="
+                position: absolute;
+                left: 5%;
+                top: 25%;
+                min-width: 90%;
+                min-height: 1%;
+                background-color: #a7a4a4;
+              "
+            ></div>
+            <div style="border-style: dashed;position: absolute; left: 5%; top: 30%;min-width: 90%;min-height: 63%;border-color: #a7a4a4;border-width: 1px;">
+
+            </div>
+          </div>
+        </div>
+        <button
+          style="
+            background-color: #126523;
+            position: absolute;
+            left: 80%;
+            top: 92%;
+            min-width: 15%;
+            min-height: 7%;
+            border-radius: 25px;
+            color: white;
+            font-size: 25px;
+            font-family: 'K2D'
+          "
+        >
+          บันทึก
+        </button>
+      </div>
     </div>
   </div>
 </div>

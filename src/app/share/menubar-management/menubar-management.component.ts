@@ -11,5 +11,7 @@ export class MenubarManagementComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  
 }
 

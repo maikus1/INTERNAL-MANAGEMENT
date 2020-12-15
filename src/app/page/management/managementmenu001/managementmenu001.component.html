@@ -44,7 +44,7 @@
           <i class="arrow-down"></i>
         </div>
       </div>
-      <ng-container *ngIf="show">
+      <div [hidden]="show">
         <div class="search-day-data">
           <div class="column search-day-data-left">
             <div>
@@ -70,7 +70,7 @@
           </div>
           <button class="search-day-data-button">ค้นหา</button>
         </div>
-      </ng-container>
+        </div>
       <div class="line-header-menu"></div>
     </div>
   </div>

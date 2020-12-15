@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "K2D";
+    src: local("K2D"), url(../../../../assets/Font/K2D-Bold.ttf) format("truetype");
+}
+
 body {
     margin: 0;
     color: #edf3ff;
@@ -46,6 +51,8 @@ body {
     top: 5%;
     left: 15%;
     color: #707070;
+    font-family: "K2D"
+
 }
 
 .line-header-menu {
@@ -75,6 +82,7 @@ body {
     font-size: 20px;
     top: 10%;
     left: 5%;
+    font-family: "K2D"
 } 
 
 .search-document-number-day {
@@ -98,6 +106,7 @@ body {
     left: 15%;
     width: 80%;
     height: 80%;
+    font-family: "K2D"
 }
 
 .search-day-data {
@@ -111,6 +120,7 @@ body {
     border-style: solid;
     border-color: #C55B11;
     border-width: 0.1px;
+    font-family: "K2D";
 }
 
 .search-day-data-left {
@@ -145,4 +155,5 @@ body {
     top: 75%;
     min-width: 20%;
     min-height: 15%;
+    font-family: "K2D";
   }

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./managementmenu001.component.css']
 })
 export class Managementmenu001Component implements OnInit {
-  public show:boolean = false;
+  public show:boolean = true;
   public buttonName:any = 'Show';
   constructor() { }
 
@@ -14,6 +14,7 @@ export class Managementmenu001Component implements OnInit {
   }
 
   show_search_document_number_day(){
+    console.log(this.buttonName)
     this.show = !this.show;
     // CHANGE THE NAME OF THE BUTTON.
     if(this.show)  
