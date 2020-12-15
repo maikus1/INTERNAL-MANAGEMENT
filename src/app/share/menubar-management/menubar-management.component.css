@@ -6,7 +6,7 @@
 
 .navbar-mainbg{
 	background-color:#1C3FAB;
-	padding: 0px;
+	padding: 0vw;
 }
 
 .navbar-fixed-left {
@@ -19,11 +19,9 @@
 #navbarSupportedContent ul li a{
 	color: #F8F8F8;
     text-decoration: none;
-    font-size: 1.5vw;
+    font-size: 1vw;
     display: block;
-    padding: 20px 10px;
-    transition-duration:0.6s;
-	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    padding: 1vw 0.5vw;
 	position: relative;
 	font-family: "K2D";
 
@@ -41,7 +39,7 @@ img {
 	color: #F8F8F8;
 	text-decoration: none;
 	font-size: 1vw;
-	padding: 20px 10px;
+	padding: 1vw 0.5vw;
 	font-family: "K2D";
 }
 
@@ -49,7 +47,7 @@ img {
 	color: #F8F8F8;
 	text-decoration: none;
 	font-size: 1vw;
-	padding: 0.1px 10px;
+	padding: 0.1vw 0.5vw;
 	font-family: "K2D";
 }
 
