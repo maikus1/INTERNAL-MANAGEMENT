@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "K2D";
+    src: local("K2D"), url(../../../../assets/Font/K2D-Bold.ttf) format("truetype");
+}
+
+body {
+    margin: 0;
+    color: #edf3ff;
+    background: #b12828;
+    background-size: auto;
+}
+
+.bg {
+    background-color: #1C3FAA;
+    /* background-color: #fff; */
+
+    background-size: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.menu-box {
+    background-color:#F1F5F8;
+    background-size: auto;
+    position: absolute;
+    border-radius: 25px;
+    top: 2.5%;
+    left: 7.5%;
+    /* Preserve aspet ratio */
+    min-width: 90%;
+    min-height: 95%;
+}

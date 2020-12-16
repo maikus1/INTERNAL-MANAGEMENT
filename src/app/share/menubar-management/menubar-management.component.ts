@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-menubar-management',
@@ -6,14 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menubar-management.component.css']
 })
 export class MenubarManagementComponent implements OnInit {
+
   button1:boolean = true;
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  test(){
-    document.getElementById('select-button').toggleAttribute('select-button:active')
-  }
 }
-

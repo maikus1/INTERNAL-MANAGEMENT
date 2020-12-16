@@ -6,8 +6,6 @@ import { Managementmenu002Component } from './managementmenu002/managementmenu00
 import { Managementmenu003Component } from './managementmenu003/managementmenu003.component';
 import { Managementmenu004Component } from './managementmenu004/managementmenu004.component';
 import { ShareModule } from '../../share/share.module'
-import { BrowserModule } from '@angular/platform-browser';
-
 
 @NgModule({
   declarations: [
@@ -16,12 +14,17 @@ import { BrowserModule } from '@angular/platform-browser';
     Managementmenu002Component, 
     Managementmenu003Component, 
     Managementmenu004Component, 
-    // ShareModule
   ],
   imports: [
     CommonModule,
-    BrowserModule
-    // ShareModule
+    ShareModule
+  ],exports: [
+    HomemanagementComponent, 
+    Managementmenu001Component, 
+    Managementmenu002Component, 
+    Managementmenu003Component, 
+    Managementmenu004Component, 
   ]
 })
+
 export class ManagementModule { }

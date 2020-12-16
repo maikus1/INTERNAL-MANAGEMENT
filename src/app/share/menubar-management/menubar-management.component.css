@@ -12,8 +12,9 @@
 .navbar-fixed-left {
     width: 18%;
     position: fixed;
-    border-radius: 100px;
+    border-radius: 70px;
 	height: 100%;
+	z-index: 100;
 }
 
 #navbarSupportedContent ul li a{
@@ -34,6 +35,14 @@ img {
 	margin-left: 10%;
   	margin-right: 50%;
   }
+
+.root {
+	position: absolute;
+	width: 100%;;
+	border-radius: 0;
+	bottom: 0;
+	left: -10%;
+}
 
 .nav-name{
 	color: #F8F8F8;
@@ -57,16 +66,6 @@ img {
 	min-width: 60%;
 	min-height: 0.1%;
 }
-
-/* .circle-button {
-
-	background-color: black;
-	border-radius: 100px;
-	min-width: 50px;
-	min-height: 50px;
-	left: 50%;
-	z-index: -50;
-} */
 
 .select-button{
 	color:#F8F8F8;
