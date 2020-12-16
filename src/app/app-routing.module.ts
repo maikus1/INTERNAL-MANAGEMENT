@@ -12,6 +12,7 @@ import { HomeuserComponent } from './page/user/homeuser/homeuser.component';
 import { Usermenu001Component } from './page/user/usermenu001/usermenu001.component';
 import { Usermenu002Component } from './page/user/usermenu002/usermenu002.component';
 import { MenubarManagementComponent } from './share/menubar-management/menubar-management.component';
+import { Usermenu003Component } from './page/user/usermenu003/usermenu003.component';
 
 
 const routes: Routes = [
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'homeuser', component: HomeuserComponent },
   { path: 'usermenu001', component: Usermenu001Component },
   { path: 'usermenu002', component: Usermenu002Component },
+  { path: 'usermenu003', component: Usermenu003Component },
   { path: 'managementmenu001', component: Managementmenu001Component },
   { path: 'managementmenu002', component: Managementmenu002Component },
   { path: 'managementmenu003', component: Managementmenu003Component },
@@ -32,6 +34,7 @@ const routes: Routes = [
   { path: 'engineermenu001', component: Engineermenu001Component },
   { path: 'engineermenu002', component: Engineermenu002Component},
   { path: 'menubarmanagement', component: MenubarManagementComponent },
+ 
   // { path: '', loadChildren: './page/login/login-routing.module#LoginModule'},
 ];
 
