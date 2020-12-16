@@ -3,7 +3,7 @@
     font-family: "K2D";
     src: local("K2D"), url(../../../assets/Font/K2D-Bold.ttf) format("truetype");
 }
-
+/* text color: #F8F8F8; */
 .navbar-mainbg{
 	background-color:#1C3FAB;
 	padding: 0vw;
@@ -57,3 +57,77 @@ img {
 	min-width: 60%;
 	min-height: 0.1%;
 }
+
+/* .circle-button {
+
+	background-color: black;
+	border-radius: 100px;
+	min-width: 50px;
+	min-height: 50px;
+	left: 50%;
+	z-index: -50;
+} */
+
+.select-button{
+	color:#F8F8F8;
+	background-color: #1C3FAB;
+	border-radius: 30px;
+	font-family: "K2D";
+	font-size: 1.2vw;
+	min-width: 100%;
+	height: 6vh;
+	text-indent: 10%;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	padding: 10px 3px ;
+}
+.select-button:active .fa-search,
+.select-button:active .fa-newspaper-o,
+.select-button:active .fa-list-alt,
+.select-button:active .fa-user,
+.select-button:active .fa-sign-out,
+.select-button:active .fa-home{
+	color: #1C3FAA;
+}
+
+.select-button:active {
+	transition: all 0.7s;
+	background-color: #F8F8F8;
+	color: #707070;
+	
+}
+
+/* .select-button .top,
+.select-button .bottom{
+	position: absolute;
+	width:6vh;
+	height: 6vh;
+	background-color:black;
+	left: 85%;
+	border-radius: 50px;
+}
+.select-button .top{
+	top: -25px
+}
+.select-button .bottom{
+	bottom: -25px;
+} */
+
+/* .select-button:active .top:before,
+.select-button:active .bottom:before{
+	content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+.select-button:active .top:before{
+	top: -25px;
+    right: 0;
+}
+.select-button:active .bottom:before{
+	bottom: -25px;
+	right: 0;
+} */
+

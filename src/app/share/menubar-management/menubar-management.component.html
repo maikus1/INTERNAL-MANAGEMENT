@@ -6,6 +6,67 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome
 
 <nav class="navbar navbar-expand-lg navbar-mainbg navbar-fixed-left"> 
   
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+    <ul class="navbar-nav ml-auto">
+      <div class="col-sm-2"></div>
+      <div class="column">
+        
+        <img src="assets/img/usertest.png" alt="Avatar">
+        <br>
+        <li class="nav-name">
+          <p>คุณ XXXXX XXXXXX</p>
+        </li>
+        <li class="nav-cotton">
+          <p>ฝ่ายบริหารงานทั่วไป</p>
+        </li><br>
+        <div class="line-nav-bar"></div>
+        <br>
+        
+        <li class="nav-item">
+          <div class="select-button">
+            <i class="fa fa-home"></i> หน้าหลัก
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="select-button">
+            <i class="fa fa-search"></i> ค้นหาเอกสาร
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="select-button">
+            <i class="fa fa-newspaper-o"></i> ประกาศข่าว
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="select-button">
+            <i class="fa fa-list-alt"></i> สรุปการดำเนินงาน
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="select-button">
+            <i class="fa fa-user"></i> จัดการผู้ใช้
+            </div>
+        </li>
+        <li class="nav-item">
+          <div class="select-button">
+            <i class="fa fa-sign-out"></i> ออกจากระบบ
+          </div>
+        </li>
+      </div>
+    </ul>
+  </div>
+</nav>
+
+
+
+<!-- <link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+
+
+<nav class="navbar navbar-expand-lg navbar-mainbg navbar-fixed-left"> 
+  
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <div class="col-sm-2"></div>
@@ -20,26 +81,36 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome
         </li><br>
         <div class="line-nav-bar"></div>
         <br>
-        <li class="nav-item active">
-            <a ><i class="fa fa-home"></i> หน้าหลัก</a>
+        <li class="nav-item" (click)="homebar()">
+          <div id="select-button">
+            <a><i class="fa fa-home"></i>  หน้าหลัก</a>
+          </div>
         </li>
-        <li class="nav-item">
-            <a  ><i class="fa fa-search"></i> ค้นหาเอกสาร</a>
+        <li class="nav-item" (click)="menu001()">
+          <div id="select-button2">
+            <a><i class="fa fa-search"></i> ค้นหาเอกสาร</a>
+          </div>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" (click)="menu002()">
+          <div id="select-button3">
             <a><i class="fa fa-newspaper-o"></i> ประกาศข่าว</a>
+          </div>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" (click)="menu003()">
+          <div id="select-button4">
             <a><i class="fa fa-list-alt"></i> สรุปการดำเนินงาน</a>
+          </div>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" (click)="menu004()">
+          <div id="select-button5">
             <a><i class="fa fa-user"></i> จัดการผู้ใช้</a>
+          </div>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" >
             <a><i class="fa fa-sign-out"></i> ออกจากระบบ</a>
         </li>
       </div>
 
     </ul>
   </div>
-</nav>
+</nav> -->
