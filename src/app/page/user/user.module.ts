@@ -4,6 +4,7 @@ import { HomeuserComponent } from './homeuser/homeuser.component';
 import { Usermenu001Component } from './usermenu001/usermenu001.component';
 import { Usermenu002Component } from './usermenu002/usermenu002.component';
 import { Routes, RouterModule } from '@angular/router';
+import { ShareModule } from '../../share/share.module'
 
 const routes: Routes = [
   { path: 'homeuser', component: HomeuserComponent },
@@ -13,10 +14,17 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [HomeuserComponent, Usermenu001Component, Usermenu002Component],
+
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
+    ShareModule
+ 
   ],
-  exports: [RouterModule],
+  exports: [
+    RouterModule,
+   
+  ],
+  
 })
 export class UserModule { }

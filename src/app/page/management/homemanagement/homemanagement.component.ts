@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component,OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-homemanagement',
   templateUrl: './homemanagement.component.html',
-  styleUrls: ['./homemanagement.component.css']
+  styleUrls: ['./homemanagement.component.css'],
 })
 export class HomemanagementComponent implements OnInit {
-
+  closeResult = '';
   constructor() { }
 
   ngOnInit(): void {
   }
+
 
 }

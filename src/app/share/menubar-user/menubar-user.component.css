@@ -1,0 +1,133 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@font-face {
+    font-family: "K2D";
+    src: local("K2D"), url(../../../assets/Font/K2D-Bold.ttf) format("truetype");
+}
+/* text color: #F8F8F8; */
+.navbar-mainbg{
+	background-color:#1C3FAB;
+	padding: 0vw;
+}
+
+.navbar-fixed-left {
+    width: 18%;
+    position: fixed;
+    border-radius: 70px;
+	height: 100%;
+	z-index: 100;
+}
+
+#navbarSupportedContent ul li a{
+	color: #F8F8F8;
+    text-decoration: none;
+    font-size: 1vw;
+    display: block;
+    padding: 1vw 0.5vw;
+	position: relative;
+	font-family: "K2D";
+
+}
+
+img {
+	display: block;
+	border-radius: 50%;
+	width: 50%;
+	margin-left: 10%;
+  	margin-right: 50%;
+  }
+
+.root {
+	position: absolute;
+	width: 100%;;
+	border-radius: 0;
+	bottom: 0;
+	left: -10%;
+}
+
+.nav-name{
+	color: #F8F8F8;
+	text-decoration: none;
+	font-size: 1vw;
+	padding: 1vw 0.5vw;
+	font-family: "K2D";
+}
+
+.nav-cotton {
+	color: #F8F8F8;
+	text-decoration: none;
+	font-size: 1vw;
+	padding: 0.1vw 0.5vw;
+	font-family: "K2D";
+}
+
+.line-nav-bar {
+	position: absolute;
+	background-color: #F8F8F8;
+	min-width: 60%;
+	min-height: 0.1%;
+}
+
+.select-button{
+	color:#F8F8F8;
+	background-color: #1C3FAB;
+	border-radius: 30px;
+	font-family: "K2D";
+	font-size: 1.2vw;
+	min-width: 100%;
+	height: 6vh;
+	text-indent: 10%;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	padding: 10px 3px ;
+}
+.select-button:active .fa-search,
+.select-button:active .fa-newspaper-o,
+.select-button:active .fa-list-alt,
+.select-button:active .fa-user,
+.select-button:active .fa-sign-out,
+.select-button:active .fa-home{
+	color: #1C3FAA;
+}
+
+.select-button:active {
+	transition: all 0.7s;
+	background-color: #F8F8F8;
+	color: #707070;
+	
+}
+
+/* .select-button .top,
+.select-button .bottom{
+	position: absolute;
+	width:6vh;
+	height: 6vh;
+	background-color:black;
+	left: 85%;
+	border-radius: 50px;
+}
+.select-button .top{
+	top: -25px
+}
+.select-button .bottom{
+	bottom: -25px;
+} */
+
+/* .select-button:active .top:before,
+.select-button:active .bottom:before{
+	content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+.select-button:active .top:before{
+	top: -25px;
+    right: 0;
+}
+.select-button:active .bottom:before{
+	bottom: -25px;
+	right: 0;
+} */
+
