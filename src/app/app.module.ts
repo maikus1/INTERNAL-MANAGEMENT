@@ -9,6 +9,15 @@ import { MenubarEngineerComponent } from './share/menubar-engineer/menubar-engin
 import {MatStepperModule} from '@angular/material/stepper';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
+import {MatDatepickerModule} from '@angular/material/datepicker';
+// import { MaterialModule, MatNativeDateModule } from '@angular/material';
+
+// import { FormsModule } from '@angular/forms';
+// import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+// import { DatepickerModule } from 'angular-mat-datepicker'
+// import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+// import { PaginationModule } from 'ngx-bootstrap/pagination';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +32,12 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     MatStepperModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    BrowserAnimationsModule,
+    // NgbModule,
+    // FormsModule,
+    // BsDatepickerModule.forRoot(),
+    MatDatepickerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

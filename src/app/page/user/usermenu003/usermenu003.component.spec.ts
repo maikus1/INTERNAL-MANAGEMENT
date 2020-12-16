@@ -1,21 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { Usermenu003Component } from './usermenu003.component';
 
-import { Usermenu002Component } from './usermenu002.component';
-
-describe('Usermenu002Component', () => {
-  let component: Usermenu002Component;
-  let fixture: ComponentFixture<Usermenu002Component>;
+describe('Usermenu003Component', () => {
+  let component: Usermenu003Component;
+  let fixture: ComponentFixture<Usermenu003Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ Usermenu002Component ]
+      declarations: [ Usermenu003Component ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Usermenu002Component);
+    fixture = TestBed.createComponent(Usermenu003Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
