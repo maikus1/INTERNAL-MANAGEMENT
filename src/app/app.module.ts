@@ -7,9 +7,12 @@ import { MenubarUserComponent } from './share/menubar-user/menubar-user.componen
 import { MenubarManagementComponent } from './share/menubar-management/menubar-management.component';
 import { MenubarEngineerComponent } from './share/menubar-engineer/menubar-engineer.component';
 import {MatStepperModule} from '@angular/material/stepper';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
 
 import {MatDatepickerModule} from '@angular/material/datepicker';
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// import {MatDatepickerModule} from '@angular/material/datepicker';
 // import { MaterialModule, MatNativeDateModule } from '@angular/material';
 
 // import { FormsModule } from '@angular/forms';
@@ -38,6 +41,11 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
     // FormsModule,
     // BsDatepickerModule.forRoot(),
     MatDatepickerModule,
+    // BrowserAnimationsModule,
+    // NgbModule,
+    // FormsModule,
+    // BsDatepickerModule.forRoot(),
+    // MatDatepickerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

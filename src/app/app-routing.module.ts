@@ -4,6 +4,7 @@ import { Engineermenu001Component } from './page/engineer/engineermenu001/engine
 import { Engineermenu002Component } from './page/engineer/engineermenu002/engineermenu002.component';
 import { HomeengineerComponent } from './page/engineer/homeengineer/homeengineer.component';
 import { LoginComponent } from './page/login/login.component'
+import { HomemanagementComponent } from './page/management/homemanagement/homemanagement.component';
 import { Managementmenu001Component } from './page/management/managementmenu001/managementmenu001.component';
 import { Managementmenu002Component } from './page/management/managementmenu002/managementmenu002.component';
 import { Managementmenu003Component } from './page/management/managementmenu003/managementmenu003.component';
@@ -26,7 +27,11 @@ const routes: Routes = [
   { path: 'homeuser', component: HomeuserComponent },
   { path: 'usermenu001', component: Usermenu001Component },
   { path: 'usermenu002', component: Usermenu002Component },
+<<<<<<< HEAD
   { path: 'usermenu004', component: Usermenu004Component },
+=======
+  { path: 'homemanagement', component: HomemanagementComponent },
+>>>>>>> ea9e829881d29cadd4f8550aed77920e4d2ef014
   { path: 'usermenu003', component: Usermenu003Component },
   { path: 'managementmenu001', component: Managementmenu001Component },
   { path: 'managementmenu002', component: Managementmenu002Component },
