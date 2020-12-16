@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  color: #edf3ff;
+  background: #b12828;
+  background-size: auto;
+}
+
+.bg {
+  background-color: #1c3faa;
+  /* background-color: #fff; */
+
+  background-size: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.bell {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  color: #474646;
+  position: absolute;
+  top: 3%;
+  left: 96.5%;
+}
+
+.menu-box {
+  background-color: #f1f5f8;
+  background-size: auto;
+  position: absolute;
+  border-radius: 25px;
+  top: 2.5%;
+  left: 7.5%;
+  /* Preserve aspet ratio */
+  min-width: 90%;
+  min-height: 95%;
+}
+
+.text-header-menu {
+  position: absolute;
+  font-size: 25px;
+  top: 5%;
+  left: 15%;
+  color: #707070;
+}
+
+.line-header-menu {
+  position: absolute;
+  background-color: #948f8f;
+  top: 10%;
+  left: 15%;
+  min-width: 84.5%;
+  min-height: 0.1%;
+}
+
+.search-document-number {
+  position: absolute;
+  border-radius: 25px;
+  background-color: white;
+  top: 2.5%;
+  left: 80%;
+  min-width: 15%;
+  min-height: 4%;
+  border-style: solid;
+  border-width: 0.1px;
+}
+
+.text-search-document-number {
+  position: absolute;
+  color: #707070;
+  font-size: 20px;
+  top: 10%;
+  left: 5%;
+}
+/* #LOW {
+  position: relative;
+  border-radius: 30px !important;
+  border: none;
+  background-color: whitesmoke !important;
+  height: 50%;
+  width: 30%;
+  left: 5%;
+  margin-top: 8%;
+  padding: 100% 205%;
+} */
+.LOW1 {
+  position: absolute;
+  border-radius: 10px !important;
+  border: #707070;
+  background-color: whitesmoke !important;
+  height: 30%;
+  width: 100%;
+  left: 14%;
+  top: 26%;
+  margin-bottom: 30px;
+  padding: 3% 9%;
+  box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.4);
+}
+.LOW2 {
+  position: absolute;
+  border-radius: 10px !important;
+  border: #707070;
+  background-color: white !important;
+  height: 30%;
+  width: 100%;
+  left: 14%;
+  top: 50%;
+  margin-bottom: 30px;
+  padding: 3% 9%;
+  box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.4);
+}
+.LOW3 {
+  position: absolute;
+  border-radius: 10px !important;
+  border: #707070;
+  background-color: white !important;
+  height: 30%;
+  width: 100%;
+  left: 36%;
+  top: 26%;
+  margin-bottom: 30px;
+  padding: 3% 7.5%;
+  box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.4);
+}
+
+.LOW4 {
+  position: absolute;
+  border-radius: 10px !important;
+  border: #707070;
+  background-color: white !important;
+  height: 30%;
+  width: 100%;
+  left: 36%;
+  top: 50%;
+  margin-bottom: 30px;
+  padding: 3% 7.5%;
+  box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.4);
+}
+.LOW5 {
+  position: absolute;
+  border-radius: 10px !important;
+  border: #707070;
+  background-color: white !important;
+  height: 30%;
+  width: 100%;
+  right: 27%;
+  top: 26%;
+  margin-bottom: 30px;
+  padding: 3% 9%;
+  box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.4);
+}
+.LOW6 {
+  position: absolute;
+  border-radius: 10px !important;
+  border: #707070;
+  background-color: white !important;
+  height: 30%;
+  width: 100%;
+  right: 27%;
+  top: 50%;
+  margin-bottom: 30px;
+  padding: 3% 9%;
+  box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.4);
+}
+.text1 {
+  position: absolute;
+  height: 20%;
+  width: 50%;
+  left: 18%;
+  top: 16%;
+  font-size: 24px;
+}
+.text2 {
+  position: absolute;
+  height: 20%;
+  width: 100%;
+  left: 12%;
+  top: 40%;
+  font-size: 16px;
+}
+.text3 {
+  position: absolute;
+  height: 20%;
+  width: 60%;
+  left: 28%;
+  top: 25%;
+  font-size: 16px;
+}
+.text4 {
+  position: absolute;
+  height: 20%;
+  width: 70%;
+  left: 28%;
+  top: 40%;
+  font-size: 16px;
+}
+.text5 {
+  position: absolute;
+  height: 20%;
+  width: 70%;
+  left: 28%;
+  top: 25%;
+  font-size: 16px;
+}
+.text6 {
+  position: absolute;
+  height: 20%;
+  width: 70%;
+  left: 28%;
+  top: 25%;
+  font-size: 16px;
+}
+.text7 {
+  position: absolute;
+  height: 20%;
+  width: 70%;
+  left: 28%;
+  top: 25%;
+  font-size: 16px;
+}
+.line-side {
+  position: absolute;
+  background-color: #948F8F;
+  top: 10%;
+  left: 75%;
+  min-width: .01%;
+  min-height: 84.5%;
+}
+/* .BTU1{
+  position: absolute;
+  border-radius: 20px !important;
+  height: 30px;
+  width: 100px;
+  left:85px;
+  top: 10%;
+
+}
+.BTU2{
+  position: absolute; 
+  border-radius: 20px !important;
+  height: 30px;
+  width: 100px;
+  margin-top: 4px;
+  left: 85px;
+} */
+
+

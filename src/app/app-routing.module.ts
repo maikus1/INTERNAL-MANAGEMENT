@@ -11,6 +11,7 @@ import { Managementmenu004Component } from './page/management/managementmenu004/
 import { HomeuserComponent } from './page/user/homeuser/homeuser.component';
 import { Usermenu001Component } from './page/user/usermenu001/usermenu001.component';
 import { Usermenu002Component } from './page/user/usermenu002/usermenu002.component';
+import { Usermenu004Component } from './page/user/usermenu004/usermenu004.component';
 import { MenubarManagementComponent } from './share/menubar-management/menubar-management.component';
 
 
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'homeuser', component: HomeuserComponent },
   { path: 'usermenu001', component: Usermenu001Component },
   { path: 'usermenu002', component: Usermenu002Component },
+  { path: 'usermenu004', component: Usermenu004Component },
   { path: 'managementmenu001', component: Managementmenu001Component },
   { path: 'managementmenu002', component: Managementmenu002Component },
   { path: 'managementmenu003', component: Managementmenu003Component },
