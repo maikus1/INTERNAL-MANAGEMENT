@@ -1,0 +1,261 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.bg {
+    background-color: #1C3FAA;
+    background-size: auto;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+}
+.menu-box {
+    background-color:#F1F5F8;
+    background-size: auto;
+    position: absolute;
+    border-radius: 25px;
+    top: 2.5%;
+    left: 7.5%;
+    /* Preserve aspet ratio */
+    min-width: 90%;
+    min-height: 95%;
+}
+.text-header-menu {
+    position: absolute;
+    font-size: 25px;
+    top: 5%;
+    left: 15%;
+    color: #707070;
+}
+
+.line-header-menu {
+    position: absolute;
+    background-color: #948F8F;
+    top: 10%;
+    left: 15%;
+    min-width: 84.5%;
+    min-height: 0.1%;
+}
+/* .line-back-menu {
+    position: absolute;
+    background-color: #948F8F;
+    top: 10%;
+    left: 15%;
+    min-width: 84.5%;
+    min-height: 0.1%;
+} */
+.search-document-number {
+    position: absolute;
+    border-radius: 25px;
+    background-color: white;
+    top: 2.5%;
+    left: 80%;
+    min-width: 15%;
+    min-height: 4%;
+    border-style: solid;
+    border-width: 0.1px;
+}
+.text-search-document-number{
+    position: absolute;
+    color: #707070;
+    border-radius: 25px;
+}
+.text{
+    position: absolute;
+    top: 14%;
+    left: 22%;   
+    color: #707070;
+    font-size: 20px;
+}
+.text1{
+    position: absolute;
+    top: 14%;
+    left: 55%;   
+    color: #707070;
+    font-size: 20px;
+}
+.text2{
+    position: absolute;
+    top: 14%;
+    left: 65%;   
+    color: #707070;
+    font-size: 20px;
+}
+.bell{
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    color: #474646;
+    position: absolute;
+    top: 3%;
+    left: 96.5%;
+  }
+.box1{
+    position: absolute;
+    border-radius: 30px !important;
+    background-color :white !important;
+    /* height: 10%;
+    width: 10%; */
+    right: 25%;
+    top : 20%;
+    min-width: 55%;
+    min-height: 7%;
+}
+.textbox1{
+    position: absolute;
+    right: 23%;
+    top : 21.5%;
+    min-width: 55%;
+    min-height: 7%;
+    font-size: 16px;
+}
+.text-status1{
+    position: absolute;
+    left: 54%;
+    top : 21.5%;
+    min-width: 55%;
+    min-height: 7%;
+    font-size: 16px;
+}
+.link1{
+    position: absolute;
+    left: 61%;
+    top : 21.5%;
+    min-width: 55%;
+    min-height: 7%;
+    font-size: 16px;
+}
+.box2{
+    position: absolute;
+    border-radius: 30px !important;
+    background-color :white !important;
+    /* height: 10%;
+    width: 10%; */
+    right: 25%;
+    top : 33%;
+    min-width: 55%;
+    min-height: 7%;
+}
+.textbox2{
+    position: absolute;
+    right: 23%;
+    top : 34.5%;
+    min-width: 55%;
+    min-height: 7%;
+    font-size: 16px;
+}
+.text-status2{
+    position: absolute;
+    left: 54%;
+    top : 34.5%;
+    min-width: 55%;
+    min-height: 7%;
+    font-size: 16px;
+}
+.box3{
+    position: absolute;
+    border-radius: 30px !important;
+    background-color :white !important;
+    /* height: 10%;
+    width: 10%; */
+    right: 25%;
+    top : 46%;
+    min-width: 55%;
+    min-height: 7%;
+}
+.textbox3{
+    position: absolute;
+    right: 23%;
+    top : 47.5%;
+    min-width: 55%;
+    min-height: 7%;
+    font-size: 16px;
+}
+.text-status3{
+    position: absolute;
+    left: 54%;
+    top : 47.5%;
+    min-width: 55%;
+    min-height: 7%;
+    font-size: 16px;
+}
+.box4{
+    position: absolute;
+    border-radius: 30px !important;
+    background-color :white !important;
+    /* height: 10%;
+    width: 10%; */
+    right: 25%;
+    top : 59%;
+    min-width: 55%;
+    min-height: 7%;
+}
+.textbox4{
+    position: absolute;
+    right: 23%;
+    top : 60.5%;
+    min-width: 55%;
+    min-height: 7%;
+    font-size: 16px;
+}
+.text-status4{
+    position: absolute;
+    left: 54%;
+    top : 60.5%;
+    min-width: 55%;
+    min-height: 7%;
+    font-size: 16px;
+}
+.box5{
+    position: absolute;
+    border-radius: 30px !important;
+    background-color :white !important;
+    /* height: 10%;
+    width: 10%; */
+    right: 25%;
+    top : 72%;
+    min-width: 55%;
+    min-height: 7%;
+}
+.textbox5{
+    position: absolute;
+    right: 23%;
+    top : 73.5%;
+    min-width: 55%;
+    min-height: 7%;
+    font-size: 16px;
+}
+.text-status5{
+    position: absolute;
+    left: 54%;
+    top : 73.5%;
+    min-width: 55%;
+    min-height: 7%;
+    font-size: 16px;
+}
+.box6{
+    position: absolute;
+    border-radius: 30px !important;
+    background-color :white !important;
+    /* height: 10%;
+    width: 10%; */
+    right: 25%;
+    top : 85%;
+    min-width: 55%;
+    min-height: 7%;
+}
+.textbox6{
+    position: absolute;
+    right: 23%;
+    top : 86.5%;
+    min-width: 55%;
+    min-height: 7%;
+    font-size: 16px;
+}
+.text-status6{
+    position: absolute;
+    left: 54%;
+    top : 86.5%;
+    min-width: 55%;
+    min-height: 7%;
+    font-size: 16px;
+}
+
