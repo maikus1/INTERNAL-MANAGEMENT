@@ -20,9 +20,8 @@
         <div class="text1">สถานะ</div>
         <div class="text2">จัดการ</div>
         <div class="box1"></div>
-        <div class="textbox1">ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
-        <div class="text-status1">หนังสือรับเข้า</div>
-
+        <div class="textbox1"> ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
+        <div class="text-status1">หนังสือรับเข้า<button mat-raised-button (click)="openDialog()">เปิด</button></div>
         <div class="box2"></div>
         <div class="textbox2">ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
         <div class="text-status2">หนังสือรับเข้า</div>
@@ -40,5 +39,9 @@
         <div class="text-status6">ส่งหนังสือออก</div>
     </div>
 </div>
-
-<!-- <button class="btn btn-lg btn-outline-primary" (click)="open()">Launch demo modal</button> -->
+<div [hidden]="show">
+    <div class="body-gray">
+    <div class="card"><div (click)="openDialog()" style="left: 100%;"><i class="fa fa-times-circle-o" style="color: red;"
+                aria-hidden="true"></i></div></div>
+</div>
+</div>

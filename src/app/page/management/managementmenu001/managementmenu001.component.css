@@ -10,6 +10,39 @@ body {
     background-size: auto;
 }
 
+.card-data {
+    position: relative;
+    width: 12%;
+    height: 30%;
+    background-color: white;
+    left: 20%;
+    border: solid;
+    border-width: 0.1px;
+    border-radius: 30px;
+    margin-left: 2%;
+    top: 20vh;
+}
+
+
+img {
+    left: 30%;
+    margin-top: 25%;
+}
+
+.img-pdf {
+    position: relative;
+    height: 5vw;
+    width: 4vw;
+}
+
+.text {
+    color: #707070;
+    font-size: 0.7vw;
+    text-align: center;
+    font-family: "K2D";
+    margin: 7%;
+}
+
 .bg {
     background-color: #1C3FAA;
     /* background-color: #fff; */
