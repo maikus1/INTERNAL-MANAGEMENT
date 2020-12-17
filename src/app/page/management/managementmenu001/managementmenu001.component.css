@@ -16,16 +16,23 @@ body {
     height: 30%;
     background-color: white;
     left: 20%;
-    margin-top: 12%;
     border: solid;
     border-width: 0.1px;
     border-radius: 30px;
     margin-left: 2%;
+    top: 20vh;
 }
 
+
 img {
-    margin-left: 30%;
+    left: 30%;
     margin-top: 25%;
+}
+
+.img-pdf {
+    position: relative;
+    height: 5vw;
+    width: 4vw;
 }
 
 .text {
