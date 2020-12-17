@@ -5,12 +5,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome
 
 
 <nav class="navbar navbar-expand-lg navbar-mainbg navbar-fixed-left"> 
-  
+  <div class="row">
+    <div class="col-2"></div>
+  <div class="col-10">
   <div class="collapse navbar-collapse" id="navbarSupportedContent" >
     <ul class="navbar-nav ml-auto">
-      <div class="col-sm-2"></div>
+      
       <div class="column">
-        
         <img src="assets/img/usertest.png">
         <br>
         <li class="nav-name">
@@ -22,10 +23,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome
         <div class="line-nav-bar"></div>
         <br>
         
-        <li class="nav-item">
+        <li class="nav-item ">
           <div class="select-button">
-            <i class="fa fa-home"></i> หน้าหลัก
-          </div>
+            <div (click)="route()">
+            <i class="fa fa-home"></i> หน้าหลัก</div> 
+          </div> 
         </li>
         <li class="nav-item">
           <div class="select-button">
@@ -56,5 +58,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome
       </div>
     </ul>
   </div>
+</div>
+</div>
 </nav>
 
