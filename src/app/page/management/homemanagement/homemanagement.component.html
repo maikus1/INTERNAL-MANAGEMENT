@@ -7,43 +7,39 @@
         <div class="line-header-menu"></div>
         <i class="bell fa fa-bell"></i>
         <div class="search-document-number">
-            <input
-            class="text-search-document-number"
-            style="border: none; outline: none;width: 80%;height: 80%;"
-            placeholder="หมายเลขเอกสาร..."
-          />
-          <i
-            class="fa fa-search"
-            style="
+            <input class="text-search-document-number" style="border: none; outline: none;width: 80%;height: 80%;"
+                placeholder="หมายเลขเอกสาร..." />
+            <i class="fa fa-search" style="
               position: absolute;
               font-size: 24px;
               color: #707070;
               top: 10%;
               right: 5%;
-            "
-          ></i>
+            "></i>
         </div>
         <div class="text">เรื่อง</div>
-        <div class="text"style="top: 14%;left: 55%;">สถานะ</div>
-        <div class="text"style="top: 14%;left: 65%;">จัดการ</div>
+        <div class="text" style="top: 14%;left: 55%;">สถานะ</div>
+        <div class="text" style="top: 14%;left: 65%;">จัดการ</div>
         <div class="box"></div>
         <div class="textbox"> ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
-        <div class="text-status">หนังสือรับเข้า<button mat-raised-button (click)="openDialog()">เปิด</button></div>
+        <div class="text-status-input">หนังสือรับเข้า<button mat-raised-button (click)="openDialog()"
+                style="color:#05941D;">เปิด</button></div>
         <div class="box" style="right: 25%;top : 33%;min-width: 55%;min-height: 7%;"></div>
         <div class="textbox" style="right: 23%;top : 34.5%;">ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
-        <div class="text-status" style="left: 54%;top : 34.5%;">หนังสือรับเข้า</div>
+        <div class="text-status-input" style="left: 54%;top : 34.5%;">หนังสือรับเข้า</div>
         <div class="box" style="right: 25%;top : 46%;min-width: 55%;min-height: 7%;"></div>
         <div class="textbox" style="right: 23%;top : 47.5%;">ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
-        <div class="text-status" style="left: 54%;top : 47.5%;">หนังสือรับเข้า</div>
+        <div class="text-status-input" style="left: 54%;top : 47.5%;">หนังสือรับเข้า</div>
         <div class="box" style="right: 25%;top : 59%;min-width: 55%;min-height: 7%;"></div>
         <div class="textbox" style="right: 23%;top : 60.5%;">ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
-        <div class="text-status" style="left: 54%;top : 60.5%;">ส่งหนังสือออก</div>
+        <div class="text-status-output" style="left: 54%;top : 60.5%;">ส่งหนังสือออก</div>
         <div class="box" style="right: 25%;top : 72%;min-width: 55%;min-height: 7%;"></div>
         <div class="textbox" style="right: 23%;top : 73.5%;">ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
-        <div class="text-status" style="left: 54%;top : 73.5%;">ส่งหนังสือออก</div>
+        <div class="text-status-output" style="left: 54%;top : 73.5%;">ส่งหนังสือออก</div>
         <div class="box" style="right: 25%;top : 85%;min-width: 55%;min-height: 7%;"></div>
         <div class="textbox" style="right: 23%;top : 86.5%;">ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
-        <div class="text-status"style="left: 54%;top : 86.5%;">ส่งหนังสือออก</div>
+        <div class="text-status-output" style="left: 54%;top : 86.5%;">ส่งหนังสือออก</div>
+        <div class="download"><button mat-button style="color: #C55B11;">ดาวน์โหลด</button></div>
     </div>
 </div>
 <div [hidden]="show">
@@ -57,6 +53,7 @@
             <input class="text-card" style="margin-top: 15%;margin-left:65%;" placeholder="" />
             <div class="close" (click)="openDialog()"><i class="fa fa-times-circle-o" style="color: red;"
                     aria-hidden="true"></i></div>
+            <div class="card-button"><button mat-button>อนุมัติ</button></div>
         </div>
     </div>
 </div>
