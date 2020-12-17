@@ -14,11 +14,13 @@ import { Usermenu001Component } from './page/user/usermenu001/usermenu001.compon
 import { Usermenu002Component } from './page/user/usermenu002/usermenu002.component';
 import { MenubarManagementComponent } from './share/menubar-management/menubar-management.component';
 import { MenubarUserComponent } from './share/menubar-user/menubar-user.component'
+import { MenubarEngineerComponent } from './share/menubar-engineer/menubar-engineer.component'
+
 import { Usermenu002DetailComponent } from './page/user/usermenu002-detail/usermenu002-detail.component'
 const routes: Routes = [
-  // {
-  //   path: '', redirectTo: '/login', pathMatch: 'full'
-  // },
+  {
+    path: '', redirectTo: '/login', pathMatch: 'full'
+  },
   {
     path: 'login', component: LoginComponent
   },
@@ -36,6 +38,7 @@ const routes: Routes = [
   { path: 'engineermenu002', component: Engineermenu002Component},
   { path: 'menubarmanagement', component: MenubarManagementComponent },
   { path: 'menubaruser', component: MenubarUserComponent },
+  { path: 'menubarengineer', component: MenubarEngineerComponent },
   // { path: '', loadChildren: './page/login/login-routing.module#LoginModule'},
 ];
 

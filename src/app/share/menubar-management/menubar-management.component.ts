@@ -7,10 +7,14 @@ import { Component, OnInit} from '@angular/core';
 })
 export class MenubarManagementComponent implements OnInit {
 
-  button1:boolean = true;
+  
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  route() {
+    var x = document.getElementsByClassName("select-button");
+    
+  }
 }
