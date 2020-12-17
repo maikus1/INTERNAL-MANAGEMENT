@@ -3,124 +3,256 @@
     <div class="bg">
         <app-menubar-user></app-menubar-user>
         <div class="menu-box">
-            <div class="column">
-                <div class="row">
-                    <div class="text-header-menu">Home > มาตรวัดและอุปกรณ์ทดสอบ</div>
-                    <div class="search-document-number">
-                        <input class="text-search-document-number"
-                            style="border: none; outline: none;width: 80%;height: 80%;"
-                            placeholder="หมายเลขเอกสาร..." />
-                        <i class="fa fa-search" style="
-                    position: absolute;
-                    font-size: 1.5vw;
-                    color: #707070;
-                    top: 10%;
-                    right: 5%;
-                  "></i>
-                    </div>
-                    <i class="bell fa fa-bell"></i>
+            
+        <div class="container">
+                <div class="row" style="margin-top:5%;">
+                    <div class="col">
+                        <div class="text-header-menu">HOME > ประกาศข่าวสาร</div>
+                        <div class="search-document-number">
+                            <input class="text-search-document-number"
+                                style="border: none; outline: none;width: 80%;height: 80%;"
+                                placeholder="หมายเลขเอกสาร..." />
+                            <i class="fa fa-search" style=" position: absolute;font-size: 24px;color: #707070; top: 10%;right: 5%;"></i>
+                        </div>
+                        <i class="bell fa fa-bell"></i>
+                     </div>
                 </div>
-                <div class="line-header-menu"></div>
-                <div class="line-side"></div>
-                <div class="col-12">
-                    <div class="row">
-                        <div style="margin-left: 66.0%;">
-                            <button type="button" class="bt2"
-                                style="background-color: #707070;">
-                                <p>ติดตามสถานะ</p>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div style="margin-left: 58.1%;">
-                            <button type="button" class="bt2"
-                                style="background-color: white;">
-                                <p>ทำหนังสือ</p>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div style="margin-left: 50.2%;">
-                            <button type="button" class="bt2"
-                                style="background-color: #707070;">
-                                <p>ลงทะเบียน</p>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+                
+            <div class="row">
                 <div class="col-9">
-                    <div class="card" style="border-radius: 1.2vw;">
-                        <br>
-                        <div class="card-body">
-                            <div class="col-12">
-                                <div class="row">
-                                    <div class="col-4">
-                                        
-                                    </div>
-                                    <div class="col-4">
-                                        
-                                        <img class="logo" src="assets/img/ptt.png" alt="logo" style="width: 3vw;margin-left: 5vw;">
-
-                                    </div>
-                                    <div class="col-4">
-
-                                    </div>  
-                                </div>
-                                <br>
-
-                                <div class="col-12">
-                                    <div class="col-4">
-                                        <div style="margin-left: 50%;">
-                                            <div>
-                                                ที่
+                    <mat-horizontal-stepper labelPosition="bottom" #stepper class="row " style="margin-left: 10%; margin-top: 5%;">
+                        <mat-step label="Step One"  style="margin-top: -10%;" class="stepper">
+                            <ng-template matStepLabel>ลงทะเบียน</ng-template>    
+                            <div class="col-9" >
+                                <div class="card" style="border-radius: 15px;margin-left: 20%;margin-top: 0%;width: 80%;">
+                                    <div class="card-body">
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <button class="button" style="background-color: #707070; width: 60%;height: 90%;">image</button>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="row">
+                                                        <div class="mb-3">
+                                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                                placeholder="ชื่อยี่ห้อ">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="mb-3">
+                                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                                placeholder="ชื่อรุ่น (Model)">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="row">
+                                                        <div class="mb-3">
+                                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                                placeholder="ชนิดของมาตรวัด">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="mb-3">
+                                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                                placeholder="หมายเลขเครื่อง(Serial No.)">
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div>
-                                                เรื่อง    
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <div class="row">
+                                                        <div class="mb-3">
+                                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                                placeholder="ชื่อผลิตภัณฑ์">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="mb-3">
+                                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                                placeholder="หมายเลข(Tag No.)">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="mb-3">
+                                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                                placeholder="ขนาดของมาตรวัด (นิ้ว)">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="row">
+                                                        <div class="mb-3">
+                                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                                placeholder="ค่า Repeatability">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="mb-3">
+                                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                                placeholder="ค่า Accuracy">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="row">
+                                                        <div class="mb-3">
+                                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                                placeholder="บริษัทผู้ประสานงาน">
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-4">
-                                        
-                                    </div>  
-                                    <div class="co-4">
                                         <div class="row">
-                                            <div style="color: red;font-size: 1.5vw;font-weight: bold;margin-left: 45%;margin-top: 15%;">
-                                                REQ #2
+                                            <div class="col-12" style="margin-left: 2.5%;">
+                                                <div class="row">
+                                                    <div>มาตรฐานการตรวจสอบมาตรวัด</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="column" style="margin-left: 2px; margin-top: 10px;">
+                                                        <input type="checkbox">
+                                                        <label style="margin-left:  1vw; font-weight: bold;">American Gas
+                                                            Association (AGA)</label>
+                                                        <div class="column" style="margin-left: 2px; margin-top: 10px;">
+                                                            <input type="checkbox">
+                                                            <label style="margin-left: 1vw; font-weight: bold;">American Petroleum
+                                                                Institute (API)</label>
+                                                            <div>
+                                                                <div>
+                                                                </div>
+            
+                                                            </div>
+                                                        </div>
+            
+                                                    </div>
+            
+            
+                                                </div>
                                             </div>
+                                            <div class="col-12">
+                                                <!-- <div class="col-12"> -->
+                                                 <div class="row">
+                                                    <div style="margin-left: 62%;">
+                                                        <button type="button" class="bt"
+                                                            style=" background-color: coral; width: 17%;height: 4.5vmin;top: 5vmin;">บันทึกข้อมูล</button>
+                                                    </div>
+                                                 </div>
+                                                    <div class="row">
+                                                     <div style="margin-left: 80%;">
+                                                        <button type="button" class="bt" style="background-color: #686766;width: 15%;height: 4.5vmin;top: 5vmin;">ยกเลิก</button> </div>
+                                                    </div>
+                                                    
+                                                 </div>  
+                                                <!-- </div> -->
+                                            </div>
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <br>
                                         </div>
-                                    </div>  
+                                    </div>
                                 </div>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                              
-                                <div class="col-12">
-                                    <div class="row">
-                                        <div style="margin-left: 56%;">
-                                            <button type="button" class="bt"
-                                                style=" background-color: #C55B11;box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.4); width: 7vw;height: 2.2vw;top: 2.5vw;">พิมพ์หนังสือ</button>
+                        </mat-step>
+                        
+                        <mat-step label="ทำหนังสือ">
+                            <div class="col-9">
+                                <div class="card" style="border-radius: 1.2vw;">
+                                    <br>
+                                    <div class="card-body">
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    
+                                                </div>
+                                                <div class="col-4">
+                                                    
+                                                    <img class="logo" src="assets/img/ptt.png" alt="logo" style="width: 3vw;margin-left: 5vw;">
+            
+                                                </div>
+                                                <div class="col-4">
+            
+                                                </div>  
+                                            </div>
+                                            <br>
+            
+                                            <div class="col-12">
+                                                <div class="col-4">
+                                                    <div style="margin-left: 50%;">
+                                                        <div>
+                                                            ที่
+                                                        </div>
+                                                        <div>
+                                                            เรื่อง    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    
+                                                </div>  
+                                                <div class="co-4">
+                                                    <div class="row">
+                                                        <div style="color: red;font-size: 1.5vw;font-weight: bold;margin-left: 45%;margin-top: 15%;">
+                                                            REQ #2
+                                                        </div>
+                                                    </div>
+                                                </div>  
+                                            </div>
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <br>
+                                          
+                                            <div class="col-12">
+                                                <div class="row">
+                                                    <div style="margin-left: 56%;">
+                                                        <button type="button" class="bt"
+                                                            style=" background-color: #C55B11;box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.4); width: 7vw;height: 2.2vw;top: 2.5vw;">พิมพ์หนังสือ</button>
+                                                    </div>
+                                                 </div>
+                                                 <div class="row">
+                                                    <div style="margin-left: 72%;">
+                                                        <button type="button" class="bt"
+                                                            style=" background-color: coral;box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.4); width: 7vw;height: 2.2vw;top: 2.5vw;">บันทึกข้อมูล</button>
+                                                    </div>
+                                                 </div>
+                                                    <div class="row">
+                                                     <div style="margin-left: 88%;">
+                                                        <button type="button" class="bt" style="background-color: #686766;box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.4);width: 7vw;height: 2.2vw;top: 2.5vw;">ยกเลิก</button> </div>
+                                                    </div>
+                                                    
+                                                 </div>  
+                                             </div>
+                                             <br>
+                                             <br>
+                                             <br>
                                         </div>
-                                     </div>
-                                     <div class="row">
-                                        <div style="margin-left: 72%;">
-                                            <button type="button" class="bt"
-                                                style=" background-color: coral;box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.4); width: 7vw;height: 2.2vw;top: 2.5vw;">บันทึกข้อมูล</button>
-                                        </div>
-                                     </div>
-                                        <div class="row">
-                                         <div style="margin-left: 88%;">
-                                            <button type="button" class="bt" style="background-color: #686766;box-shadow: 1px 1px 1px 1px rgba(36, 35, 35, 0.4);width: 7vw;height: 2.2vw;top: 2.5vw;">ยกเลิก</button> </div>
-                                        </div>
-                                        
-                                     </div>  
-                                 </div>
-                                 <br>
-                                 <br>
-                                 <br>
-                            </div>
+                                    </div>
+                                </div>
+                        </mat-step>
+
+                    <mat-step label="ติดตามสถานะ">
+                    <div class="row">
+                        <div style="margin-left: 66.7%;">
+                            <button type="button" class="bt2"
+                                style="background-color: #707070; width: 7%;height: 6vmin;top: 16vmin;border: 0.1vmin solid #707070;">
+                                <p style="bottom: 2%;">ติดตามสถานะ</p>
+                            </button>
                         </div>
                     </div>
+                </mat-step>
+
+                </mat-horizontal-stepper>
                 </div>
+                    <div class="col-3">
+                        wdadwaawwaa
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+</div>
+
             
                 

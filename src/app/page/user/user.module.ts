@@ -7,6 +7,11 @@ import { Routes, RouterModule } from '@angular/router';
 import { ShareModule } from '../../share/share.module';
 import { Usermenu002DetailComponent } from './usermenu002-detail/usermenu002-detail.component'
 
+import {MatIconModule} from '@angular/material/icon'; 
+import {MatStepperModule} from '@angular/material/stepper';
+import {MatDatepickerModule} from '@angular/material/datepicker'; 
+import {MatFormFieldModule} from '@angular/material/form-field'; 
+
 const routes: Routes = [
   { path: 'homeuser', component: HomeuserComponent },
   { path: 'usermenu001', component: Usermenu001Component },
@@ -20,7 +25,12 @@ const routes: Routes = [
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
-    ShareModule
+    ShareModule,
+
+    MatStepperModule,
+    MatIconModule,
+    MatDatepickerModule,
+    MatFormFieldModule,
  
   ],
   exports: [

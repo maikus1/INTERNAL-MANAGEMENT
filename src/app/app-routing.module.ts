@@ -25,7 +25,7 @@ const routes: Routes = [
   { path: 'homeuser', component: HomeuserComponent },
   { path: 'usermenu001', component: Usermenu001Component },
   { path: 'usermenu002', component: Usermenu002Component },
-  { path: 'Usermenu002DetailComponent', component: Usermenu002DetailComponent },
+  { path: 'usermenu002Detail', component: Usermenu002DetailComponent },
   { path: 'homemanagement', component: HomemanagementComponent },
   { path: 'managementmenu001', component: Managementmenu001Component },
   { path: 'managementmenu002', component: Managementmenu002Component },

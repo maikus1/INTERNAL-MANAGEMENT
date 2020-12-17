@@ -98,38 +98,3 @@ img {
 	color: #707070;
 	
 }
-
-/* .select-button .top,
-.select-button .bottom{
-	position: absolute;
-	width:6vh;
-	height: 6vh;
-	background-color:black;
-	left: 85%;
-	border-radius: 50px;
-}
-.select-button .top{
-	top: -25px
-}
-.select-button .bottom{
-	bottom: -25px;
-} */
-
-/* .select-button:active .top:before,
-.select-button:active .bottom:before{
-	content: '';
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: black;
-}
-.select-button:active .top:before{
-	top: -25px;
-    right: 0;
-}
-.select-button:active .bottom:before{
-	bottom: -25px;
-	right: 0;
-} */
-
