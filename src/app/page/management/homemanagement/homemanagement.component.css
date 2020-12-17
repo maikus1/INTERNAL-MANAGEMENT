@@ -14,7 +14,7 @@
 .body-gray{
     background-size: auto;
     position: absolute;
-    background-color:#000000;
+    background-color:#00000000;
     min-width: 100%;
     min-height: 100%;
     z-index: 500;
@@ -49,10 +49,15 @@
     background-color:white;
     position: absolute;
     border-radius: 25px;
-    width: 900px;
-    height: 650px;
-    left: 25%;
+    width: 1100px;
+    height: 680px;
+    left: 15%;
     top: 2.5%;
+}
+.close{
+    position: absolute;
+    right: 2%;
+    top: 1%;
 }
 .search-document-number {
     position: absolute;
@@ -75,22 +80,8 @@
     top: 14%;
     left: 22%;   
     color: #707070;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-family: "K2D";
-}
-.text1{
-    position: absolute;
-    top: 14%;
-    left: 55%;   
-    color: #707070;
-    font-size: 20px;
-}
-.text2{
-    position: absolute;
-    top: 14%;
-    left: 65%;   
-    color: #707070;
-    font-size: 20px;
 }
 .bell{
     width: 30px;
@@ -101,7 +92,7 @@
     top: 3%;
     left: 96.5%;
   }
-.box1{
+.box{
     position: absolute;
     border-radius: 30px !important;
     background-color :white !important;
@@ -110,153 +101,27 @@
     min-width: 55%;
     min-height: 7%;
 }
-.textbox1{
-    position: absolute;
+.textbox{
     right: 23%;
     top : 21.5%;
     min-width: 55%;
     min-height: 7%;
-    font-size: 16px;
+    position: absolute;
+    font-family: "K2D";
+    font-size: 1vw;
+    color: #707070;
 }
-.text-status1{
+.text-status{
     position: absolute;
     left: 54%;
     top : 21.5%;
-    /* min-width: 55%;
-    min-height: 7%; */
-    font-size: 16px;
+    font-size: 1vw;
+    font-family: "K2D";
 }
-.link1{
+.text-card{
     position: absolute;
-    left: 61%;
-    top : 21.5%;
-    min-width: 55%;
-    min-height: 7%;
-    font-size: 16px;
+    font-family: "K2D";
+    font-size: 1vw;
 }
-.box2{
-    position: absolute;
-    border-radius: 30px !important;
-    background-color :white !important;
-    right: 25%;
-    top : 33%;
-    min-width: 55%;
-    min-height: 7%;
-}
-.textbox2{
-    position: absolute;
-    right: 23%;
-    top : 34.5%;
-    min-width: 55%;
-    min-height: 7%;
-    font-size: 16px;
-}
-.text-status2{
-    position: absolute;
-    left: 54%;
-    top : 34.5%;
-    /* min-width: 55%;
-    min-height: 7%; */
-    font-size: 16px;
-}
-.box3{
-    position: absolute;
-    border-radius: 30px !important;
-    background-color :white !important;
-    right: 25%;
-    top : 46%;
-    min-width: 55%;
-    min-height: 7%;
-}
-.textbox3{
-    position: absolute;
-    right: 23%;
-    top : 47.5%;
-    min-width: 55%;
-    min-height: 7%;
-    font-size: 16px;
-}
-.text-status3{
-    position: absolute;
-    left: 54%;
-    top : 47.5%;
-    /* min-width: 55%;
-    min-height: 7%; */
-    font-size: 16px;
-}
-.box4{
-    position: absolute;
-    border-radius: 30px !important;
-    background-color :white !important;
-    right: 25%;
-    top : 59%;
-    min-width: 55%;
-    min-height: 7%;
-}
-.textbox4{
-    position: absolute;
-    right: 23%;
-    top : 60.5%;
-    min-width: 55%;
-    min-height: 7%;
-    font-size: 16px;
-}
-.text-status4{
-    position: absolute;
-    left: 54%;
-    top : 60.5%;
-    /* min-width: 55%;
-    min-height: 7%; */
-    font-size: 16px;
-}
-.box5{
-    position: absolute;
-    border-radius: 30px !important;
-    background-color :white !important;
-    right: 25%;
-    top : 72%;
-    min-width: 55%;
-    min-height: 7%;
-}
-.textbox5{
-    position: absolute;
-    right: 23%;
-    top : 73.5%;
-    min-width: 55%;
-    min-height: 7%;
-    font-size: 16px;
-}
-.text-status5{
-    position: absolute;
-    left: 54%;
-    top : 73.5%;
-    /* min-width: 55%;
-    min-height: 7%; */
-    font-size: 16px;
-}
-.box6{
-    position: absolute;
-    border-radius: 30px !important;
-    background-color :white !important;
-    right: 25%;
-    top : 85%;
-    min-width: 55%;
-    min-height: 7%;
-}
-.textbox6{
-    position: absolute;
-    right: 23%;
-    top : 86.5%;
-    min-width: 55%;
-    min-height: 7%;
-    font-size: 16px;
-}
-.text-status6{
-    position: absolute;
-    left: 54%;
-    top : 86.5%;
-    /* min-width: 55%;
-    min-height: 7%; */
-    font-size: 16px;
-}
+
 
