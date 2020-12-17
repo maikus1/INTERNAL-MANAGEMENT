@@ -18,52 +18,46 @@ body {
     min-width: 100%;
     min-height: 100%;
     z-index: -999;
+    bottom: 60%;
 }
 
 
-.login-form .group {
-    margin-bottom: 15px;
-    margin-top: 30px;
-}
-
-.login-form .group .label,
-.login-form .group .input{
-    /* position: absolute; */
+.group {
     position: relative;
-    width: 20%;
+    margin-bottom: 5%;
+    left: 300%;
+}
+
+
+.input{
+    width: 80%;
     color:black;
     display: block;
-    left: 70%;
-    bottom: 250px;
-  
-}
-
-.login-form .group .button {
-    position: relative;
+    bottom: 60%;
     border: none;
-    box-shadow: white;
-    left: 82%;
-    width: 8%;
-    padding: 15px 20px;
-    border-radius: 15px;
-    color: white;
-    background-color: coral;
-    bottom: 250px;
-    
-}
-.login-form .group .input{
-    border: none;
-    padding: 15px 20px;
+    padding: 1em 1.5em;
     border-radius: 15px;
     background:whitesmoke;
-   
+    
+} 
+
+.button {
+    position: absolute;
+    border: none;
+    box-shadow: white;
+    left: 70%;
+    width: 40%;
+    padding: 1em 1.5em;
+    border-radius: 15px;
+    color: white;
+    background-color: coral;  
 }
 
-.header{
+/* .header{
     position: relative;
     margin-top: 130px;
     margin-right: 500px;
-}
+} */
 
 .text{
     position: relative;
@@ -74,19 +68,20 @@ body {
     padding: 5px 5px;
     border-radius: 15px;
     background:whitesmoke;
+    bottom: 60%;
 }
 
 .text1{
-    margin-left: 60px;
-    margin-top: 425px;
+    margin-left: 0%;
+    margin-top: 50%;
     color: white;
-    font-size: 22px;
+    font-size: 1.5vw;
 }
 
-.text2{
+/* .text2{
     margin-left: 15%;
     margin-top: 20px;
     color: white;
     font-size: 24px;
-}
+} */
 
