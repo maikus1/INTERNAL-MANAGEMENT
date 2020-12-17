@@ -7,6 +7,8 @@ import { Managementmenu003Component } from './managementmenu003/managementmenu00
 import { Managementmenu004Component } from './managementmenu004/managementmenu004.component';
 import { ShareModule } from '../../share/share.module'
 
+
+
 @NgModule({
   declarations: [
     HomemanagementComponent, 
@@ -17,7 +19,8 @@ import { ShareModule } from '../../share/share.module'
   ],
   imports: [
     CommonModule,
-    ShareModule
+    ShareModule,
+    
   ],exports: [
     HomemanagementComponent, 
     Managementmenu001Component, 

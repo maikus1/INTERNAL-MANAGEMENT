@@ -6,6 +6,9 @@ import { Usermenu002Component } from './usermenu002/usermenu002.component';
 import { Routes, RouterModule } from '@angular/router';
 import { ShareModule } from '../../share/share.module'
 
+import {MatIconModule} from '@angular/material/icon'; 
+import {MatStepperModule} from '@angular/material/stepper';
+
 const routes: Routes = [
   { path: 'homeuser', component: HomeuserComponent },
   { path: 'usermenu001', component: Usermenu001Component },
@@ -18,7 +21,10 @@ const routes: Routes = [
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
-    ShareModule
+    ShareModule,
+
+    MatStepperModule,
+    MatIconModule,
  
   ],
   exports: [
