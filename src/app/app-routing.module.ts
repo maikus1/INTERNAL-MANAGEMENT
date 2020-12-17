@@ -16,16 +16,18 @@ import { MenubarManagementComponent } from './share/menubar-management/menubar-m
 import { MenubarUserComponent } from './share/menubar-user/menubar-user.component'
 import { MenubarEngineerComponent } from './share/menubar-engineer/menubar-engineer.component'
 
+import { Usermenu002DetailComponent } from './page/user/usermenu002-detail/usermenu002-detail.component'
 const routes: Routes = [
-  // {
-  //   path: '', redirectTo: '/login', pathMatch: 'full'
-  // },
+  {
+    path: '', redirectTo: '/login', pathMatch: 'full'
+  },
   {
     path: 'login', component: LoginComponent
   },
   { path: 'homeuser', component: HomeuserComponent },
   { path: 'usermenu001', component: Usermenu001Component },
   { path: 'usermenu002', component: Usermenu002Component },
+  { path: 'usermenu002Detail', component: Usermenu002DetailComponent },
   { path: 'homemanagement', component: HomemanagementComponent },
   { path: 'managementmenu001', component: Managementmenu001Component },
   { path: 'managementmenu002', component: Managementmenu002Component },

@@ -2,6 +2,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <app-menubar-management></app-menubar-management>
     <div class="menu-box">
+
         <div class="text-header-menu">HOME > รายการงาน</div>
         <div class="line-header-menu"></div>
         <i class="bell fa fa-bell"></i>
@@ -9,39 +10,50 @@
             <input class="text-search-document-number" style="border: none; outline: none;width: 80%;height: 80%;"
                 placeholder="หมายเลขเอกสาร..." />
             <i class="fa fa-search" style="
-                position: absolute;
-                font-size: 24px;
-                color: #707070;
-                top: 10%;
-                right: 5%;
-              "></i>
+              position: absolute;
+              font-size: 24px;
+              color: #707070;
+              top: 10%;
+              right: 5%;
+            "></i>
         </div>
         <div class="text">เรื่อง</div>
-        <div class="text1">สถานะ</div>
-        <div class="text2">จัดการ</div>
-        <div class="box1"></div>
-        <div class="textbox1"> ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
-        <div class="text-status1">หนังสือรับเข้า<button mat-raised-button (click)="openDialog()">เปิด</button></div>
-        <div class="box2"></div>
-        <div class="textbox2">ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
-        <div class="text-status2">หนังสือรับเข้า</div>
-        <div class="box3"></div>
-        <div class="textbox3">ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
-        <div class="text-status3">หนังสือรับเข้า</div>
-        <div class="box4"></div>
-        <div class="textbox4">ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
-        <div class="text-status4">ส่งหนังสือออก</div>
-        <div class="box5"></div>
-        <div class="textbox5">ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
-        <div class="text-status5">ส่งหนังสือออก</div>
-        <div class="box6"></div>
-        <div class="textbox6">ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
-        <div class="text-status6">ส่งหนังสือออก</div>
+        <div class="text" style="top: 14%;left: 55%;">สถานะ</div>
+        <div class="text" style="top: 14%;left: 65%;">จัดการ</div>
+        <div class="box"></div>
+        <div class="textbox"> ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
+        <div class="text-status-input">หนังสือรับเข้า<button mat-raised-button (click)="openDialog()"
+                style="color:#05941D;">เปิด</button></div>
+        <div class="box" style="right: 25%;top : 33%;min-width: 55%;min-height: 7%;"></div>
+        <div class="textbox" style="right: 23%;top : 34.5%;">ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
+        <div class="text-status-input" style="left: 54%;top : 34.5%;">หนังสือรับเข้า</div>
+        <div class="box" style="right: 25%;top : 46%;min-width: 55%;min-height: 7%;"></div>
+        <div class="textbox" style="right: 23%;top : 47.5%;">ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
+        <div class="text-status-input" style="left: 54%;top : 47.5%;">หนังสือรับเข้า</div>
+        <div class="box" style="right: 25%;top : 59%;min-width: 55%;min-height: 7%;"></div>
+        <div class="textbox" style="right: 23%;top : 60.5%;">ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
+        <div class="text-status-output" style="left: 54%;top : 60.5%;">ส่งหนังสือออก</div>
+        <div class="box" style="right: 25%;top : 72%;min-width: 55%;min-height: 7%;"></div>
+        <div class="textbox" style="right: 23%;top : 73.5%;">ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
+        <div class="text-status-output" style="left: 54%;top : 73.5%;">ส่งหนังสือออก</div>
+        <div class="box" style="right: 25%;top : 85%;min-width: 55%;min-height: 7%;"></div>
+        <div class="textbox" style="right: 23%;top : 86.5%;">ขออนุญาตติดตั้งมาตรวัดน้ำมันและผลิตภัณน้ำมัน</div>
+        <div class="text-status-output" style="left: 54%;top : 86.5%;">ส่งหนังสือออก</div>
+        <div class="download"><button mat-button style="color: #C55B11;">ดาวน์โหลด</button></div>
     </div>
 </div>
 <div [hidden]="show">
     <div class="body-gray">
-    <div class="card"><div (click)="openDialog()" style="left: 100%;"><i class="fa fa-times-circle-o" style="color: red;"
-                aria-hidden="true"></i></div></div>
-</div>
+        <div class="card">
+            <img class="imgtest" style="width: 30vw;height: 40vw;margin-left: 5%;margin-top: 3%;"
+                src="assets/img/test.png" alt="img">
+            <label class="text-card" style="margin-top: 10.5%;margin-left:50%;">สารบัญเลขรับของกรม</label>
+            <input class="text-card" style="margin-top: 10%;margin-left:65%;" placeholder="" />
+            <label class="text-card" style="margin-top: 15.5%;margin-left:50%;">สารบัญเลขรับของกลุ่ม</label>
+            <input class="text-card" style="margin-top: 15%;margin-left:65%;" placeholder="" />
+            <div class="close" (click)="openDialog()"><i class="fa fa-times-circle-o" style="color: red;"
+                    aria-hidden="true"></i></div>
+            <div class="card-button"><button mat-button>อนุมัติ</button></div>
+        </div>
+    </div>
 </div>

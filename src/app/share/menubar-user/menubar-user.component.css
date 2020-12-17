@@ -34,7 +34,8 @@ img {
 	border-radius: 50%;
 	width: 50%;
 	margin-left: 10%;
-  	margin-right: 50%;
+	  margin-right: 50%;
+	margin-top: -60%;
   }
 
 .root {
