@@ -14,7 +14,7 @@ import { Usermenu001Component } from './page/user/usermenu001/usermenu001.compon
 import { Usermenu002Component } from './page/user/usermenu002/usermenu002.component';
 import { MenubarManagementComponent } from './share/menubar-management/menubar-management.component';
 import { MenubarUserComponent } from './share/menubar-user/menubar-user.component'
-
+import { Usermenu002DetailComponent } from './page/user/usermenu002-detail/usermenu002-detail.component'
 const routes: Routes = [
   // {
   //   path: '', redirectTo: '/login', pathMatch: 'full'
@@ -25,6 +25,7 @@ const routes: Routes = [
   { path: 'homeuser', component: HomeuserComponent },
   { path: 'usermenu001', component: Usermenu001Component },
   { path: 'usermenu002', component: Usermenu002Component },
+  { path: 'Usermenu002DetailComponent', component: Usermenu002DetailComponent },
   { path: 'homemanagement', component: HomemanagementComponent },
   { path: 'managementmenu001', component: Managementmenu001Component },
   { path: 'managementmenu002', component: Managementmenu002Component },
