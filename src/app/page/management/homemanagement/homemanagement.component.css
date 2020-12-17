@@ -36,7 +36,6 @@
     left: 15%;
     color: #707070;
 }
-
 .line-header-menu {
     position: absolute;
     background-color: #948F8F;
@@ -70,7 +69,6 @@
     border-style: solid;
     border-width: 0.1px;
 }
-
 .text-search-document-number{
     position: absolute;
     color: #707070;
@@ -78,7 +76,6 @@
     top: 10%;
     left: 5%;
 }
-
 .text{
     position: absolute;
     top: 14%;
@@ -115,14 +112,35 @@
     font-size: 1vw;
     color: #707070;
 }
-.text-status{
+.text-status-input{
     position: absolute;
     left: 54%;
     top : 21.5%;
     font-size: 1vw;
     font-family: "K2D";
+    color: #F8AB12;
+}
+.text-status-output{
+    position: absolute;
+    left: 54%;
+    top : 21.5%;
+    font-size: 1vw;
+    font-family: "K2D";
+    color: #4B60EB;
 }
 .text-card{
+    position: absolute;
+    font-family: "K2D";
+    font-size: 1vw;
+}
+.download{
+    position: absolute;
+    top: 21.5%;
+    left: 64.5%;
+    font-family: "K2D";
+    font-size: 1vw;
+}
+.card-button-approve{
     position: absolute;
     font-family: "K2D";
     font-size: 1vw;
