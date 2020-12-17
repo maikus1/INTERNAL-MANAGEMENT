@@ -86,6 +86,10 @@ body {
   position: absolute;
   border-radius: 10px !important;
   border: #707070;
+<<<<<<< HEAD
+=======
+  background-color: white !important;
+>>>>>>> 42bb688b1460ea449e4b9c72f08f9f2df73367a5
   height: 3%;
   width: 18%;
   left: 14%;  
@@ -108,7 +112,7 @@ body {
   position: absolute;
   border-radius: 10px !important;
   border: #707070;
-  background-color: whitesmoke !important;
+  background-color: white !important;
   height: 3%;
   width: 18%;
   left: 14%;
@@ -121,7 +125,7 @@ body {
   position: absolute;
   border-radius: 10px !important;
   border: #707070;
-  background-color: whitesmoke !important;
+  background-color: white !important;
   height: 3%;
   width: 12%;
   left: 36%;
@@ -135,7 +139,7 @@ body {
   position: absolute;
   border-radius: 10px !important;
   border: #707070;
-  background-color: whitesmoke !important;
+  background-color: white !important;
   height: 3%;
   width: 12%;
   left: 36%;
@@ -148,7 +152,7 @@ body {
   position: absolute;
   border-radius: 10px !important;
   border: #707070;
-  background-color: whitesmoke !important;
+  background-color: white !important;
   height: 3%;
   width: 18%;
   right: 27%;
@@ -161,7 +165,7 @@ body {
   position: absolute;
   border-radius: 10px !important;
   border: #707070;
-  background-color: whitesmoke !important;
+  background-color: white !important;
   height: 3%;
   width: 18%;
   right: 27%;
