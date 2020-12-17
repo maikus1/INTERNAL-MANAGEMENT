@@ -70,11 +70,15 @@
     border-style: solid;
     border-width: 0.1px;
 }
+
 .text-search-document-number{
     position: absolute;
     color: #707070;
-    border-radius: 25px;
+    font-size: 20px;
+    top: 10%;
+    left: 5%;
 }
+
 .text{
     position: absolute;
     top: 14%;
