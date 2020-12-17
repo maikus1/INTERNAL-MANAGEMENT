@@ -11,10 +11,12 @@
 
 .navbar-fixed-left {
     width: 18%;
-    position: fixed;
+    position: absolute;
     border-radius: 70px;
 	height: 100%;
 	z-index: 100;
+
+	
 }
 
 #navbarSupportedContent ul li a{
@@ -23,17 +25,18 @@
     font-size: 1vw;
     display: block;
     padding: 1vw 0.5vw;
-	position: relative;
+	position: absolute;
 	font-family: "K2D";
-
 }
 
 img {
+	position: relative;
 	display: block;
 	border-radius: 50%;
 	width: 50%;
 	margin-left: 10%;
 	margin-right: 50%;
+
   }
 
 .root {

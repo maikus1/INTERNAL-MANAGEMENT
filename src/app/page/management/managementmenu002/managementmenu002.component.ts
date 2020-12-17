@@ -12,4 +12,5 @@ export class Managementmenu002Component implements OnInit {
   ngOnInit(): void {
   }
 
+
 }
